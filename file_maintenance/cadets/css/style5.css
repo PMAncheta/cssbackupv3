@@ -1,0 +1,224 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: transparent;
+    padding: 10px;
+}
+
+.card-header h4 {
+    padding-top: 18px;
+    margin-bottom: -5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #dedfe0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+
+}
+
+th {
+    border-bottom: 1px solid #dee2e6;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    background-color: #dedfe0;
+    color: black;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline .btn {
+    padding: 5px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.inline .btn-info {
+    color: black;
+    background-color: #c0e0e7;
+    border-color: black;
+    font-size: 12px;
+}
+
+.inline .btn-danger {
+    color: black;
+    background-color: #f1817e;
+    border-color: black;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.inline .btn-success {
+    color: black;
+    background-color: #9fd4a0;
+    border-color: black;
+    font-size: 12px;
+}
+
+.inline .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-right: 11px;
+}
+
+.float-end {
+    float: right;
+}
+
+body.dark .table {
+    color: white;
+    background-color: #242526;
+}
+
+body.dark .card-header {
+    background-color: transparent;
+    color: white;
+}
+
+body.dark th {
+    color: white;
+    background-color: #545658;
+}
+
+body.dark .table-striped tbody tr:nth-child(odd) {
+    background-color: #7a7d81;
+}
+
+body.dark .table-striped tbody tr:nth-child(even) {
+    background-color: #545658;
+}
+
+body.dark .inline .btn-info {
+    color: white;
+    background-color: #1e8597;
+    border-color: white;
+    font-size: 12px;
+
+}
+body.dark .inline .btn-success {
+    color: #fff;
+    background-color: #27893a;
+    border-color: white;
+    font-size: 12px;
+}
+
+body.dark .inline .btn-danger {
+    color: #fff;
+    background-color: #b4303a;
+    border-color: white;
+    font-size: 12px;
+}
+
+
+.card i.deplogo {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    color: var(--title-icon-color);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.card-header .text{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.clickable-td {
+    cursor: pointer;
+}
+
+.clickable-td:hover {
+    background-color: #D6D5ED;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .pagination-list li {
+    margin: 0 5px;
+  }
+  
+  
+  
+  .pagination-list li a:hover {
+    background-color: #ccc;
+  }
+  

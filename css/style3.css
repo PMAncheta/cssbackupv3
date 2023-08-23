@@ -1,0 +1,137 @@
+/* styles3.css */
+
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .form-container {
+    background-color: #315085;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(49, 80, 133, 0.5);
+ }
+ 
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ h3 {
+    color: #fff;
+    margin-bottom: 20px;
+ }
+ 
+ .error-msg {
+    color: #D04B3E;
+    margin-bottom: 10px;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: white; /* Text color for the input */
+ }
+
+ ::placeholder {
+    color: #FFFFFF; /* Color for the placeholder text */
+ }
+ 
+ .form-btn {
+    width: 90%;
+    padding: 10px;
+    color: #fff;
+    background-color: #1E3152;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+ 
+ .form-btn:hover {
+    background-color: #5386DF;
+ }
+ 
+ p {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+ }
+ 
+ a {
+    color: #91ABD9;
+    text-decoration: none;
+ }
+ 
+ a:hover {
+    text-decoration: underline;
+}
+
+.logo-align {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.logo {
+    height: 150px;
+    width: 135px;
+}
+
+select {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+    display: none;
+    pointer-events: none;
+  }
+  
+  /* Style the dropdown arrow */
+  select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent click on the arrow */
+    color: #555;
+  }
+  
+  /* Style the options */
+  select option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+
+  /* Add some spacing and style to the password toggle icon */
+.password-toggle {
+   position: absolute;
+   right: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+   cursor: pointer;
+   color: #666;
+ }
+ 
+ 
